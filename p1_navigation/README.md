@@ -34,17 +34,17 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
-3. Set the conda environment `conda activate drlnd` prior to running `python main.py`, or change kernel to `drlnd` when running the code from `jupyter notebook`.
+3. Set conda environment `conda activate drlnd` prior to running `python main.py`, or change kernel to `drlnd` when running the code from `jupyter notebook`.
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to explore the environment, train and test the agent. 
 
 #### Results and Further Improvements
 - The agent was trained with a simple DDQN with local and target Neural Networks consisting of two hidden layers, each with 37 neuron (the number of dimensions of the environment space) followed byt an output layer of 4 neurons (the number of the actions the agent can take).
-- As shown in the fig 1, the agent score performance increasingly improves up to about 500 episodes.
+- As shown in the fig 1, the agent score increasingly improves up to about 500 episodes.
 - The trained agent was then tested through 10 episodes and the average performance score was between 10 and 20.
 ![Fig 2](p1_navigation_scores_2000_episods_max_score_20.png)
-- Fig 1 - The agents scores trained through up to 2000 episodes with the goal of achieving the maximal score of 20.
+- Fig 1 - The agent scores trained through up to 2000 episodes with the goal of achieving the maximal score of 20.
 ![Fig 1](p1_navigation_scores_2000_episods_max_score_14.png) 
 - Fig 2 - The agents scores trained through up to 2000 episodes with the goal of achieving the maximal score of 14.
 * Further improvements:
