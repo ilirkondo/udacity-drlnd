@@ -29,7 +29,7 @@ import torch
 #    return torch.addmm(bias, input, weight.t())
 #RuntimeError: cublas runtime error : the GPU program failed to execute at /pytorch/aten/src/THC/THCBlas.cu:249
 
-# This must be due to the fact to the fact that the conda environment is set up with PyTorch 0.4 which is build on an earlier Cuda version.
+# This must be due to the fact that the conda environment is set up with PyTorch 0.4 which has been build with an earlier Cuda version.
 # To my understanding the older PyTorch version is conditioned from the binary of the Unity environement.
 
 device = torch.device('cpu') 
