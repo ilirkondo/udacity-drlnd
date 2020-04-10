@@ -56,4 +56,5 @@ Follow the instructions in `Navigation.ipynb` to explore the environment, train 
     * Tau - for soft update of target parameters
     * learning rate
     * how often is the target NN gets updated
+  * Implement Prioritized Experience Replay to further enhance the performance of the agent
   * Apply different NN models like D3QN
