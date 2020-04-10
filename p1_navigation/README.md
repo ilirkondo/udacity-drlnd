@@ -40,7 +40,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 Follow the instructions in `Navigation.ipynb` to explore the environment, train and test the agent. 
 
 #### Results and Further Improvements
-- The agent was trained with a simple DDQN with local and target Neural Networks consisting of two hidden layers, each with 37 neuron (the number of dimensions of the environment space) followed byt an output layer of 4 neurons (the number of the actions the agent can take).
+- The agent was trained with a simple DDQN with local and target Neural Networks consisting of two hidden layers, each with 37 neurons (the number of dimensions of the environment space) followed byt an output layer of 4 neurons (the number of the actions the agent can take).
 - As shown in the fig 1, the agent score increasingly improves up to about 500 episodes.
 - The trained agent was then tested through 10 episodes and the average performance score was between 10 and 20.
 ![Fig 2](p1_navigation_scores_2000_episods_max_score_20.png)
