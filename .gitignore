@@ -1,0 +1,9 @@
+./p1_navigation/__pycache__
+./p2_navigation/__pycache__
+./p1_navigation/.ipynb_checkpoints/*
+./p2_navigation/.ipynb_checkpoints/*
+.idea
+*.iml
+./.gradle
+./gradle
+
