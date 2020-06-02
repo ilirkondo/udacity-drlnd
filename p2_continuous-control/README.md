@@ -109,3 +109,9 @@ Note that the moving average window was 20 episodes long.
   - (2): Linear(in_features=300, out_features=1, bias=True)
 
 `ReLU` activation functions in the hidden layers; `sigmoid` activation function in the output layer (the Q-Value)
+
+#### Future Ideas for Improving the Agent's Performance:
+- Improve the replay buffer by using the [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) algorithm
+- Apply [Distributed Prioritized Experience Replay](https://arxiv.org/abs/1803.00933)
+- Try the [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/) algorithm
+- [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/) 
