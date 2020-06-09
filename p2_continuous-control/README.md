@@ -110,7 +110,7 @@ Note that the moving average window was 20 episodes long.
 
 `ReLU` activation functions in the hidden layers; `sigmoid` activation function in the output layer (the Q-Value)
 
-### Future Ideas for Improving the Agent's Performance:
+### Future Ideas for Improving the Agent's Performance
 - Improve the replay buffer by using the [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) algorithm
 - Apply [Distributed Prioritized Experience Replay](https://arxiv.org/abs/1803.00933)
 - Try the [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/) algorithm

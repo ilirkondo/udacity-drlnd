@@ -99,7 +99,7 @@ The ADAM optimizer is used for minimizing the _loss_.
 
 ##### Critics's Local & Target DQN
 1. (24*2, 128) - input layer: (state space dimension) * (action space dimension)
-2. (128+2, 128) - hidden layer
+2. (128, 128) - hidden layer
 3. (128, 128) - hidden layer
 4. (128, 1) - output layer: Q-value dimension (scalar)
 
